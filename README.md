@@ -44,12 +44,6 @@ docAgent/
 6. Retrieve relevant chunks
 7. Generate answers using LLM
 
----
-
-## 🧠 Supported LLM Providers
-
-- OpenAI-compatible APIs
-- Ollama (local models)
 
 ---
 
