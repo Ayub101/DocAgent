@@ -20,16 +20,17 @@
 
 ## 🏗️ Project Structure
 
+```
 docAgent/
-├─ app/ # Streamlit UI & app state
-├─ core/ # Core logic (crawler, chunking, retrieval)
-├─ llm/ # LLM provider integrations
-├─ utils/ # Helper utilities
-├─ tests/ # Unit tests
-├─ .env.example # Environment variables template
-├─ requirements.txt # Dependencies
+├─ app/                # Streamlit UI & app state
+├─ core/               # Core logic (crawler, chunking, retrieval)
+├─ llm/                # LLM provider integrations
+├─ utils/              # Helper utilities
+├─ tests/              # Unit tests
+├─ .env.example        # Environment variables template
+├─ requirements.txt    # Dependencies
 └─ README.md
-
+```
 
 
 ---
