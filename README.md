@@ -19,3 +19,46 @@
 ---
 
 ## 🏗️ Project Structure
+
+docAgent/
+├─ app/ # Streamlit UI & app state
+├─ core/ # Core logic (crawler, chunking, retrieval)
+├─ llm/ # LLM provider integrations
+├─ utils/ # Helper utilities
+├─ tests/ # Unit tests
+├─ .env.example # Environment variables template
+├─ requirements.txt # Dependencies
+└─ README.md
+
+
+
+---
+
+## ⚙️ How It Works
+
+1. Enter a website URL
+2. Crawl and extract content
+3. Split content into chunks
+4. Store embeddings
+5. Ask questions
+6. Retrieve relevant chunks
+7. Generate answers using LLM
+
+---
+
+## 🧠 Supported LLM Providers
+
+- OpenAI-compatible APIs
+- Ollama (local models)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/docAgent.git
+cd docAgent
+
+
